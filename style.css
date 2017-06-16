@@ -142,6 +142,7 @@ html {
 #wokeshops {
   background-color: #c52a31;
   display: block;
+  z-index: 2;
   text-align: center;
   -webkit-transition: display 0.5s ease;
   -moz-transition: display 0.5s ease;
@@ -153,22 +154,26 @@ html {
 #wokeshops.hidden {
   display: none; }
 
-.navwokeshop {
-  text-transform: uppercase;
+.wokeshop-navigation .menu-item, .navwokeshop {
   display: inline-block;
+  padding: 0;
+}
+
+.wokeshop-navigation .menu-item a, .navwokeshop {
+  text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  font-size: 0.75em;
+  font-size: 0.6em;
   letter-spacing: 0.2em;
   padding: 1em 2em;
   transition-property: color; }
   .navwokeshop strong {
     color: inherit; }
 
-.navwokeshop:hover {
+.wokeshop-navigation .menu-item a:hover, .navwokeshop:hover {
   color: black; }
 
-.navwokeshop.active {
+.wokeshop-navigation .menu-item a.active, .navwokeshop.active {
   color: black; }
 
 #events-upcoming .location, #events-upcoming .date, #events-upcoming .description {
@@ -202,4 +207,13 @@ html {
     width: 250px;
     margin: -205px 0 0 -125px !important; }
   .navwokeshop {
-    display: block; } }
+    display: block; }
+
+  .wokeshop-navigation .menu-item, .navwokeshop {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  .wokeshop-navigation ul, .navwokeshop {
+   margin: 0;
+} }
