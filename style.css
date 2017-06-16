@@ -1,0 +1,205 @@
+a {
+  text-decoration: none;
+  color: #00ae88; }
+  a strong {
+    color: inherit; }
+
+p, ul {
+  color: #caffff;
+  font-size: 1.25em; }
+
+ul {
+  padding-left: 0; }
+
+li {
+  list-style: none;
+  padding-bottom: 3em; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  padding: 1em;
+  border-left: 2px solid #69c; }
+
+sup {
+  color: #c52a31; }
+
+.big-button {
+  text-decoration: none;
+  background-color: #00ae88;
+  padding: 1.5em 4em;
+  color: #505050;
+  font-size: 18px;
+  text-align: center;
+  display: block; }
+
+html {
+  background-color: #1C1E1F; }
+  html nav, html main {
+    margin: 0 auto;
+    max-width: 43em;
+    background-color: rbg(32, 34, 33); }
+  html nav {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    max-width: none;
+    text-align: center;
+    padding: 2vw 2em; }
+    html nav a {
+      border-radius: 290486px;
+      font-size: 0.75em;
+      letter-spacing: 0.2em;
+      padding: 1em 2em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: none 200ms ease-out;
+      transition-property: color, background; }
+    html nav a.active, html nav a.donate:hover, html nav a:hover {
+      color: #c52a31; }
+    html nav .donate {
+      color: #FFEE54;
+      transition: none 200ms ease-out;
+      transition-property: color, background; }
+  html .header-logo {
+    width: 550px;
+    margin: -223px 0 0 -275px !important;
+    padding-left: 50%;
+    display: block;
+    position: absolute;
+    /*opacity: 0.25;*/ }
+  html .masthead-wrapper {
+    height: 350px; }
+  html main {
+    padding: 4em 1em; }
+  html body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    background: #1C1E1F;
+    color: rgba(80, 80, 80, 0.75);
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    font-size: 0.825em;
+    border-top: 12px solid #00ae88; }
+  html h2 {
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+    padding-top: 1em;
+    color: #00ae88;
+    }
+  html h1 {
+    color: #c52a31;
+    font-size: 25px; }
+  html h1, html h2, html strong {
+    font-weight: 500; }
+  html code, html pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: initial; }
+  html footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    text-align: center;
+    color: #202221;
+    background-image: url("/images/blackspace-footer.JPG");
+    background-color: #00ae88;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: 45% 0;
+    background-size: auto 125%; }
+    html footer a {
+      color: inherit; }
+    html footer h2 {
+      color: #000; }
+    html footer .big-button {
+      color: #00ae88;
+      background-color: #1C1E1F; }
+    html footer form {
+      opacity: 0.8;
+      background-color: #505050;
+      width: 300px;
+      margin: 20em 0 10em; }
+    html footer form:hover {
+      cursor: pointer;
+      background-color: #c52a31;
+      opacity: 0.9;
+      transition: none 300ms ease-out;
+      transition: none 300ms ease-in;
+      transition-property: color, background, opacity; }
+
+#wokeshops {
+  background-color: #c52a31;
+  display: block;
+  text-align: center;
+  -webkit-transition: display 0.5s ease;
+  -moz-transition: display 0.5s ease;
+  -o-transition: display 0.5s ease;
+  transition: display 0.5s ease;
+  position: absolute;
+  width: 100%; }
+
+#wokeshops.hidden {
+  display: none; }
+
+.navwokeshop {
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  transition-property: color; }
+  .navwokeshop strong {
+    color: inherit; }
+
+.navwokeshop:hover {
+  color: black; }
+
+.navwokeshop.active {
+  color: black; }
+
+#events-upcoming .location, #events-upcoming .date, #events-upcoming .description {
+  display: block;
+  color: gray;
+  opacity: 0.45; }
+
+#events-upcoming .summary {
+  color: #00ae88; }
+
+#events-upcoming .description {
+  display: none;
+  color: #c52a31;
+  opacity: 0.45;
+  font-size: 14px;
+  padding-top: 14px; }
+
+#events-upcoming .moredetails {
+  text-align: right;
+  float: right;
+  color: #c52a31; }
+
+#events-upcoming .wokeshop {
+  padding: 2px 10px 2px 0; }
+
+@media (max-width: 700px) {
+  html nav a {
+    display: block;
+    padding: 2em; }
+  html .header-logo {
+    width: 250px;
+    margin: -205px 0 0 -125px !important; }
+  .navwokeshop {
+    display: block; } }
