@@ -38,7 +38,7 @@
     <div id="wokeshops" class="hidden">
         <?php wp_nav_menu( array( 
             'theme_location' => 'wokeshop-menu',
-            'container_class' => 'wokeshope-navigation')); 
+            'container_class' => 'wokeshop-navigation')); 
         ?>
     </div>
 
