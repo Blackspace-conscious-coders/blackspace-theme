@@ -36,10 +36,10 @@
     <a href="https://www.paypal.me/blackspace" class="donate">Donate</a>
 </nav>
     <div id="wokeshops" class="hidden">
-        <a href="./spoken-word.html" id="spokenword" class=" navwokeshop">Spoken Word</a>
-        <a href="./digital-storytelling.html" id="digitalstorytelling" class=" navwokeshop">Digital Storytelling</a>
-        <a href="./street-griot.html" id="streetgriot" class=" navwokeshop">Street gRiot</a>
-        <a href="./conscious-code.html" id="consciouscode " class=" navwokeshop">Conscious Code</a>
+        <?php wp_nav_menu( array( 
+            'theme_location' => 'wokeshop-menu',
+            'container_class' => 'wokeshope-navigation')); 
+        ?>
     </div>
 
     </header>
